@@ -12,7 +12,7 @@ metadata:
     gethomepage.dev/name: Homepage
 spec:
   rules:
-    - host: "homepage.my.network"
+    - host: "acovaciu.homepage"
       http:
         paths:
           - path: "/"
