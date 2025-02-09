@@ -1,20 +1,25 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: homepage  
+  name: homepage
+  namespace: web
   labels:
     app.kubernetes.io/name: homepage
   annotations:
+    cert-manager.io/cluster-issuer: "letsencrypt-prod"
     gethomepage.dev/description: Dynamically Detected Homepage
     gethomepage.dev/enabled: "true"
     gethomepage.dev/group: Cluster Management
     gethomepage.dev/icon: homepage.png
     gethomepage.dev/name: Homepage
 spec:
-  ingressClassName: traefik
+  tls:
+    - hosts:
+        - homelab-acovaciu.go.ro
+      secretName: homepage-tls
   rules:
-    - host: "acovaciu.homepage"
-      http:
+    -  host: homelab-acovaciu.go.ro
+       http:
         paths:
           - path: "/"
             pathType: Prefix
