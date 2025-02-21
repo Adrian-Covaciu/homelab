@@ -8,32 +8,17 @@ data:
   kubernetes.yaml: |
     mode: cluster
   settings.yaml: ""
-  #settings.yaml: |
-  #  providers:
-  #    longhorn:
-  #      url: https://longhorn.my.network
   custom.css: ""
   custom.js: ""
-  bookmarks.yaml: |
-    - Developer:
-        - Github:
-            - abbr: GH
-              href: https://github.com/
+  bookmarks.yaml: ""
   services.yaml: |
-    - My First Group:
-        - My First Service:
-            href: http://localhost/
-            description: Homepage is awesome
-
-    - My Second Group:
-        - My Second Service:
-            href: http://localhost/
-            description: Homepage is the best
-
-    - My Third Group:
-        - My Third Service:
-            href: http://localhost/
-            description: Homepage is 😎
+    - About Me:
+        - Homelab Repository:
+              href: https://github.com/Adrian-Covaciu/homelab
+              icon: github.png
+        - LinkedIn:
+              href: https://www.linkedin.com/in/adrian-covaciu-57aa96147/
+              icon: linkedin.png
   widgets.yaml: |
     - kubernetes:
         cluster:
@@ -53,7 +38,8 @@ data:
         cpu: true
         memory: true
         network: web
+        uptime: true
     - search:
-        provider: duckduckgo
+        provider: google
         target: _blank
   docker.yaml: ""

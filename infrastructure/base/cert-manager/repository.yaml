@@ -1,5 +1,3 @@
-# flux helm repistory add https://charts.jetstack.io
-
 apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: HelmRepository
 metadata:
