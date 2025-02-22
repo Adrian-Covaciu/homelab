@@ -37,7 +37,6 @@ data:
         expanded: true
         cpu: true
         memory: true
-        # network: web
         uptime: true
     - search:
         provider: google
