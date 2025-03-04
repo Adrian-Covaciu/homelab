@@ -30,7 +30,7 @@ For the moment this is the only application I require.
         <th>Description</th>
     </tr>
     <tr>
-        <td><img width="32" src="https://raw.githubusercontent.com/gethomepage/homepage/dev/images/logo.svg"></td>
+        <td><img width="32" src="https://github.com/gethomepage/homepage/blob/dev/images/banner_light%402x.png"></td>
         <td><a href="https://gethomepage.dev/">Homepage</a></td>
         <td>No code, easy to use and configure homepage</td>
     </tr>
@@ -66,8 +66,9 @@ Infrastracture tools I used to achieve my goal of hosting.
         <td><a href="https://prometheus.io/">Prometheus</a></td>
         <td>An open-source monitoring system with a dimensional data model, flexible query language, efficient time series database and modern alerting approach.</td>
     </tr>
+<table>
 
-## Next steps
+## :runner: Next steps
 
 Automate certificate renewal with Github Actions and Unifi API (when it's mature enough, at the moment in beta).
 Secure my cluster further with Network Policies.
