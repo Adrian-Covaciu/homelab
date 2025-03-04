@@ -30,13 +30,15 @@ For the moment this is the only application I require.
         <th>Description</th>
     </tr>
     <tr>
-        <td><img width="32" src="https://github.com/gethomepage/homepage/blob/dev/images/banner_light@2x.png"></td>
+        <td><img width="32" src="https://raw.githubusercontent.com/gethomepage/homepage/dev/images/logo.svg"></td>
         <td><a href="https://gethomepage.dev/">Homepage</a></td>
         <td>No code, easy to use and configure homepage</td>
     </tr>
 </table>
 
 ### Infrastructure
+
+Infrastracture tools I used to achieve my goal of hosting.
 
 <table>
     <tr>
@@ -71,5 +73,6 @@ Automate certificate renewal with Github Actions and Unifi API (when it's mature
 Secure my cluster further with Network Policies.
 
 
+## Credits
 
-Credits to [Misha](https://github.com/mischavandenburg/homelab) as this is where I got the idea and inspiration.
+To [Misha](https://github.com/mischavandenburg/homelab) as this is where I got the idea and inspiration.
