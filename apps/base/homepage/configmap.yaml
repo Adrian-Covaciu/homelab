@@ -19,6 +19,7 @@ data:
         - LinkedIn:
               href: https://www.linkedin.com/in/adrian-covaciu-57aa96147/
               icon: linkedin.png
+    - Homelab Infrastructure:
         - Unifi:
               href: https://unifi.ui.com/consoles/0CEA1487257500000000088C04DD000000000900B60600000000674DB356:50129806/network/default/dashboard
               description: Unifi
