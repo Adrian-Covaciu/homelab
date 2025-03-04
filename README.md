@@ -12,7 +12,7 @@ I use Raspberry Pi OS to setup my lightweight K3s cluster.
 
 My servers are two Raspberry Pi's, one large and one small. These are what was available for me at the time, yet enough to play around and host my homepage.
 
-Raspberry Pi 5 8GB
+Raspberry Pi 5 8GB<br>
 Raspberry Pi 4 1GB
 
 I use a Unifi Cloud Gateway Ultra configured with 2 VLAN's, one for internet exposed servers and one for WI-FI devices. I also make use of it's features for IPD/IDS and blocking certain countries.
@@ -32,7 +32,7 @@ For the moment this is the only application I require.
     <tr>
         <td><img width="32" src="https://github.com/gethomepage/homepage/blob/dev/images/banner_light%402x.png"></td>
         <td><a href="https://gethomepage.dev/">Homepage</a></td>
-        <td>No code, easy to use and configure homepage</td>
+        <td>No code, easy to use and configure homepage.</td>
     </tr>
 </table>
 
