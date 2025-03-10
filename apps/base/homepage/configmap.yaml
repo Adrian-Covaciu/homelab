@@ -21,7 +21,7 @@ data:
               icon: linkedin.png
         - Credly:
               href: https://www.credly.com/users/adrian-covaciu
-              icon: credly.png
+              icon: https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/credly.svg
     - Homelab Infrastructure:
         - Unifi:
               href: https://unifi.ui.com/consoles/0CEA1487257500000000088C04DD000000000900B60600000000674DB356:50129806/network/default/dashboard
