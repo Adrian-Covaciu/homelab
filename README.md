@@ -15,7 +15,7 @@ My servers are two Raspberry Pi's, one large and one small. These are what was a
 Raspberry Pi 5 8GB<br>
 Raspberry Pi 4 1GB
 
-I use a Unifi Cloud Gateway Ultra configured with 2 VLAN's, one for internet exposed servers and one for WI-FI devices. I also make use of it's features for IPD/IDS and blocking certain countries.
+I use a Unifi Cloud Gateway Ultra configured with 2 VLAN's, one for internet exposed servers and one for WI-FI devices. I also make use of it's features for IDS/IPS and blocking certain countries.
 
 ## Installed Apps & Infrastructure tools
 
