@@ -16,6 +16,9 @@ data:
         - Homelab Repository:
               href: https://github.com/Adrian-Covaciu/homelab
               icon: github.png
+        - Hivebox Project Repository:
+              href: https://github.com/Adrian-Covaciu/devops-hands-on-project-hivebox
+              icon: github.png
         - LinkedIn:
               href: https://www.linkedin.com/in/adrian-covaciu-57aa96147/
               icon: linkedin.png
