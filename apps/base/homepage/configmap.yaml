@@ -13,18 +13,19 @@ data:
   bookmarks.yaml: ""
   services.yaml: |
     - About Me:
-        - Homelab Repository:
-              href: https://github.com/Adrian-Covaciu/homelab
-              icon: github.png
-        - Hivebox Project Repository:
-              href: https://github.com/Adrian-Covaciu/devops-hands-on-project-hivebox
-              icon: github.png
         - LinkedIn:
               href: https://www.linkedin.com/in/adrian-covaciu-57aa96147/
               icon: linkedin.png
         - Credly:
               href: https://www.credly.com/users/adrian-covaciu
               icon: https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/credly.svg
+    - Projects:
+        - Homelab Repository:
+              href: https://github.com/Adrian-Covaciu/homelab
+              icon: github.png
+        - Hivebox Repository:
+              href: https://github.com/Adrian-Covaciu/devops-hands-on-project-hivebox
+              icon: github.png
     - Homelab Infrastructure:
         - Unifi:
               href: https://unifi.ui.com/consoles/0CEA1487257500000000088C04DD000000000900B60600000000674DB356:50129806/network/default/dashboard
